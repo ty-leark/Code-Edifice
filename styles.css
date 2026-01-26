@@ -319,7 +319,7 @@ body.resizing * {
     z-index: 1;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1600px) {
     .live-banner {
         z-index: 999;
     }
