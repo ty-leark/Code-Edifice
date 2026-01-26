@@ -1,3 +1,4 @@
+
 :root {
     --bg: #050505;
     --green: #00ff9c;
@@ -148,7 +149,7 @@ body.resizing * {
     width: clamp(100%, 45vw, 42%);     
     display: flex;
     flex-direction: column;  
-    position: relative;
+    position: static;
     z-index: 2;
     margin-top: clamp(40px, 18vw, 200px);
     margin-bottom: 60px;
@@ -246,6 +247,7 @@ body.resizing * {
     margin-top: 75px;
     height: 449px;
     margin-left: 10px;
+    position:relative;
 }
 
 .iframe-box h1 {
@@ -317,7 +319,7 @@ body.resizing * {
     z-index: 1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1450px) {
     .live-banner {
         z-index: 999;
     }
