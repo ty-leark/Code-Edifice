@@ -1,4 +1,3 @@
-
 :root {
     --bg: #050505;
     --green: #00ff9c;
@@ -319,7 +318,7 @@ body.resizing * {
     z-index: 1;
 }
 
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1450px) {
     .live-banner {
         z-index: 999;
     }
@@ -394,6 +393,13 @@ body.resizing * {
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 16px;
         margin-top: 500px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .iframe-box {
+        padding-right: 50px;
+        padding-left: 50px
     }
 }
 
