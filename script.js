@@ -9,7 +9,7 @@ function resize() {
 resize();
 window.addEventListener("resize", resize);
 
-const letters = "Aק;שйעςר擇טεײַцוρיضאָτפּуאַסυדBפֿθגкהιײ田קοלеזπכصצαװнבσנCδгφثγшη野ξщκDλзζقχфψEωыβ他νвμفаFпغрGо有лعдHяهчIсخмJи的тحьKشL那سMيNبOلPاQت但RنS他مTظUطVذWدXزY就رZو0123456789$@#&*";
+const letters = "Aק;שйעςר擇טεײַцוρיضאָτפּуאַסυדBפֿθגкהιײ田קοלеזπכصצαװнבσנCδгφثγшη野ξщκDλзζقχфψEωыβ他νвμفаFпغрGо有лعдHяهчIсخмJи的тحьKشL那سMيNبOلPاQت但RنS他مTظUطVذWدXزY就رZو0123456789$@#&*";
 const fontSize = 14;
 let drops = [];
 
@@ -53,7 +53,7 @@ function resize2() {
 resize2();
 window.addEventListener("resize", resize2);
 
-const letters2 = "Aק;שйעςר擇טεײַцוρיضאָτפּуאַסυדBפֿθגкהιײ田קοלеזπכصצαװнבσנCδгφثγшη野ξщκDλзζقχфψEωыβ他νвμفаFпغрGо有лعдHяهчIсخмJи的тحьKشL那سMيNبOلPاQت但RنS他مTظUطVذWدXزY就رZو0123456789$@#&*";
+const letters2 = "Aק;שйעςר擇טεײַцוρיضאָτפּуאַסυדBפֿθגкהιײ田קοלеזπכصצαװнבσנCδгφثγшη野ξщκDλзζقχфψEωыβ他νвμفаFпغрGо有лعдHяهчIсخмJи的тحьKشL那سMيNبOلPاQت但RنS他مTظUطVذWدXزY就رZو0123456789$@#&*";
 const fontSize2 = 14;
 const drops2 = Array(Math.floor(window.innerWidth / fontSize2)).fill(1);
 
@@ -76,3 +76,13 @@ function drawMatrix2() {
 }
 
 setInterval(drawMatrix2, 90);
+
+let resizeTimer;
+window.addEventListener("resize", () => {
+    document.body.classList.add("resizing");
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+        document.body.classList.remove("resizing");
+    }, 150);
+});
+
