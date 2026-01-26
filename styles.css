@@ -78,7 +78,7 @@ body.resizing * {
 }
 
 /* MOBILE TICKER */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1430px) {
     #ticker {
         font-size: 0.75rem;
         padding-left: 50%;
@@ -157,10 +157,9 @@ body.resizing * {
 
 .products-title {
     font-size: clamp(1rem, 2vw, 1.3rem);
-    text-align: right;
     margin-bottom: 20px;
-    margin-right: 20px;
     letter-spacing: 1px;
+    margin-left: 45%;
     opacity: 0.85;
 }
 
@@ -240,13 +239,13 @@ body.resizing * {
 }
 
 .iframe-box {
-    width: 100%;
+    width: 95%;
     border: 1px solid var(--border);
     background: rgba(0,0,0,0.85);
     margin-top: 75px;
     height: 449px;
     margin-left: 10px;
-    position:relative;
+    position: relative;
 }
 
 .iframe-box h1 {
@@ -256,7 +255,7 @@ body.resizing * {
 
 .iframe-box iframe {
     width: 100%;
-    height: 320px; /* adjust as needed */
+    height: 500px; /* adjust as needed */
     border: none;
     display: block;
 }
@@ -480,5 +479,3 @@ body.resizing * {
         font-size: 0.8rem;
     }
 }
-
-
