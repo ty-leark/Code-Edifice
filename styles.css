@@ -245,7 +245,7 @@ body.resizing * {
 
 .ai-image img {
     max-width: none;
-    height: auto;
+    height: 100%;
     display: block;
     width: 80%;
     border: 1px solid var(--border);
