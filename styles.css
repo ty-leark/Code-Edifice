@@ -188,6 +188,24 @@ body.resizing * {
     opacity: 0.85;
 }
 
+.buy-btn {
+    color: var(--green);
+    background: rgba(0, 0, 0, 0.85);
+    border:1px solid var(--border);
+    padding:8px 12px;
+    border-radius:6px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.buy-btn:hover { 
+    background:#2a2a2a;
+}
+
+.buy-btn:focus-within { 
+    outline:2px solid #555;
+}
+
 /* FEATURED WRAPPER */
 .featured-wrapper {
     display: grid;
@@ -312,4 +330,3 @@ body.resizing * {
     mix-blend-mode: overlay;
     z-index: 1;
 }
-
