@@ -256,7 +256,7 @@ body.resizing * {
     width: 95%;
     border: 1px solid var(--border);
     background: rgba(0,0,0,0.85);
-    margin-top: 175px;
+    margin-top: 75px;
     height: 449px;
     margin-left: 10px;
     position: relative;
