@@ -201,7 +201,6 @@ body.resizing * {
     border-radius:6px;
     cursor:pointer;
     text-decoration: none;
-    margin-bottom: 20px;
 }
 
 .buy-btn:hover { 
