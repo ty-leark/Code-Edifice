@@ -413,3 +413,66 @@ body.resizing * {
         max-width: 100% !important;
     }
 }
+
+/* FULL 320px MOBILE RESPONSIVENESS */
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 0.75rem !important;
+    }
+
+    .navbar {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 8px 10px !important;
+    }
+
+    .logo a {
+        font-size: 1rem !important;
+    }
+
+    .nav-status {
+        font-size: 0.7rem !important;
+        margin-top: 4px !important;
+    }
+
+    .live-banner {
+        font-size: 0.65rem !important;
+        padding: 4px 0 !important;
+    }
+
+    #ticker {
+        padding-left: 30% !important;
+        animation: scroll 200s linear infinite !important;
+    }
+
+    .iframe-box iframe {
+        height: 300px !important;
+    }
+
+    .ai-text, .text {
+        font-size: 0.75rem !important;
+    }
+
+    .ai-image {
+        justify-content: center !important;
+    }
+
+    .ai-image img {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .node {
+        padding: 12px !important;
+    }
+
+    .product-card img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .buy-btn {
+        padding: 6px 10px !important;
+        font-size: 0.7rem !important;
+    }
+}
