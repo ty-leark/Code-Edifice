@@ -75,6 +75,7 @@ body.resizing * {
     animation: scroll 450s linear infinite;
     font-size: 0.85rem;
     opacity: 0.8;
+    will-change: transform;
 }
 
 @keyframes scroll {
@@ -95,8 +96,8 @@ body.resizing * {
 #matrix {
     position: fixed;
     inset: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: #050505;
     opacity: 0.22;
     z-index: 0;
@@ -113,6 +114,9 @@ body.resizing * {
     position: relative;
     z-index: 2;
     margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
 }
 
 .left-column {
@@ -166,7 +170,9 @@ body.resizing * {
 
 /* PRODUCT GRID */
 .product-grid {
-    display: grid;
+    display: block;
+    max-width: 100%;
+    height: auto;
     grid-template-columns: repeat(
         auto-fit,
         minmax(clamp(140px, 28vw, 180px), 1fr)
