@@ -337,7 +337,7 @@ body.resizing * {
 }
 
 /* MOBILE STACKING */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
     .top-row {
         flex-direction: column;
         margin-left: 10px;
