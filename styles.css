@@ -335,3 +335,44 @@ body.resizing * {
     mix-blend-mode: overlay;
     z-index: 1;
 }
+
+/* MOBILE STACKING */
+@media screen and (max-width: 320px) {
+    .top-row {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+
+    .left-column {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .featured-wrapper {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .products {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+    .products-title {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .iframe-box {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
