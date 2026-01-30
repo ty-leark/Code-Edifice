@@ -476,3 +476,29 @@ body.resizing * {
         font-size: 0.7rem !important;
     }
 }
+
+/* REMOVE ANY HORIZONTAL SCROLL */
+html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#matrix {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+.live-banner {
+    width: 100% !important;
+}
+
+.top-row,
+.left-column,
+.featured-wrapper,
+.products,
+.iframe-box,
+.product-grid,
+.product-card {
+    max-width: 100% !important;
+}
