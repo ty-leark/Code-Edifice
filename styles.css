@@ -75,7 +75,6 @@ body.resizing * {
     animation: scroll 450s linear infinite;
     font-size: 0.85rem;
     opacity: 0.8;
-    will-change: transform;
 }
 
 @keyframes scroll {
