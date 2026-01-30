@@ -47,6 +47,11 @@ body.resizing * {
     letter-spacing: 2px;
 }
 
+.logo a {
+    text-decoration: none;
+    color: var(--green);
+}
+
 .nav-status {
     opacity: 0.7;
     font-size: 0.85rem;
@@ -141,7 +146,7 @@ body.resizing * {
 }
 
 .products {
-    width: clamp(100%, 45vw, 42%);     
+    width: clamp(100%, 45vw, 42%);
     display: flex;
     flex-direction: column;  
     position: static;
