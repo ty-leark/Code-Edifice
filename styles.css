@@ -95,7 +95,7 @@ body.resizing * {
 #matrix {
     position: fixed;
     inset: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: #050505;
     opacity: 0.22;
