@@ -94,6 +94,7 @@ body.resizing * {
 /* MATRIX RAIN */
 #matrix {
     position: fixed;
+    inset: 0;
     width: 100vw;
     height: 100vh;
     background: #050505;
@@ -165,7 +166,7 @@ body.resizing * {
 
 /* PRODUCT GRID */
 .product-grid {
-    display: grid
+    display: grid;
     grid-template-columns: repeat(
         auto-fit,
         minmax(clamp(140px, 28vw, 180px), 1fr)
