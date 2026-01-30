@@ -113,9 +113,7 @@ body.resizing * {
     margin-top: clamp(80px, 12vw, 120px);
     position: relative;
     z-index: 2;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 0;
+    margin-left: 20px;
 }
 
 .left-column {
